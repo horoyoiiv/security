@@ -5,6 +5,7 @@ security
 
 #### 1. [Cookie](/web/cookie.md)  
 #### 2. [URL & Domain](/web/url-domain.md)  
+#### 3. [SOP - CSRF](/web/sop-cors.md)  
 
 ## TLS  
 [1. TLS 1.2 and TLS 1.3](/tls/tls.md)  
