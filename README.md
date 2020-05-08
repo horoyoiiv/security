@@ -17,6 +17,12 @@ security
 
 
 ## TLS  
+* Transport Layer 위에서, Application Layer 아래에서 동작하며, 상위에서 받은 페이로드를 암호화하고,  
+밑에서부터 받은 세그먼트를 복호화하는 방식으로 보안 기능을 제공.  
+* TLS는 대칭키, 비대칭키 두 가지 방식을 혼용. 대칭키 방식의 암복호화 퍼포먼스가 빠르기에 데이터 그 자체는 대칭키 방식으로 수행.  
+* 문제는 대칭키를 주고 받는 것이고, 대칭키를 생성하기 위하여 비대칭키(RSA 혹은 디피-헬만) 방식 사용.  
+그러나 TLS 1.3부터 RSA은 Perfect Foward Secrecy가 부족하여 배제.  
+
 [1. TLS 1.2 and TLS 1.3](/tls/tls.md)  
 [2. 인증서 동작](/tls/certificate.md)  
 3. PKI (Public key Infrastructure)  
