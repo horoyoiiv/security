@@ -11,9 +11,9 @@ security
 
 #### 4. [XSS - Cross Site Sscripting](/web/xss.md)  
 * CSRF는 html 태그를 악용했다면, XSS는 Script를 삽입하여 해킹.  
-#### 5. [CORS]
-  
-  
+#### 5. [CORS](/web/cors.md)  
+* 출처가 다른 서버에 스크립트를 통한 요청을 보내는 것을 허용하는 방법.  
+* Simple request 와 Preflight request로 나뉜다.    
 
 
 ## TLS  
