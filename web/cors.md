@@ -1,6 +1,7 @@
 
 # CORS  
 * Cross Origin Request Sharing  
+#### [CORS 완벽 설명](https://www.youtube.com/watch?v=Ka8vG5miErk&t=3s)  
 
 
 ## 1. CORS란?  
