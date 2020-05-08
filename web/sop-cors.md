@@ -19,6 +19,12 @@
 * 요청은 서버로 가지만 응답을 브라우져에서 읽지만 못 하는 것이다.  
 [보낼 수 있다. 하지만 읽을 수 없다.](https://security.stackexchange.com/questions/145013/when-does-the-same-origin-policy-prevent-a-request-from-being-sent)  
 
+요청에 대한 응답으로 200 OK가 올 수 있다.  
+하지만 헤더 내에 [Access-Control-Allow-Origin : * ]가 없는 **등**의 이유로 브라우져가 응답을 읽지 못함.  
+
+![image](https://user-images.githubusercontent.com/62331555/81428457-3d22c700-9197-11ea-9dd7-01e1e6042c17.png)  
+
+
 ### 2. 출처란?  
 * 출처는 **프로토콜**, **도메인**, **포트번호**로 식별된다.  
 * **세 가지**다.  
